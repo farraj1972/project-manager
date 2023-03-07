@@ -6,5 +6,5 @@ npm install
 ```
 #### Execute
 ```bash
-npm run devsh
+npm run dev
 ```
