@@ -25,9 +25,10 @@ const PORT = process.env.PORT || 5000;
 //     console.get('Get all projects');
 // });
 
-app.use('/api/projects', require('./routes/api/projects'));
-app.use('/api/tasks', require('./routes/api/tasks'));
+// app.use('/api/projects', require('./routes/api/projects'));
+// app.use('/api/tasks', require('./routes/api/tasks'));
 //app.use('api/tasks', require('./routes/api/tasks'));
+app.use('/api', require('./routes'));
 
 app.listen(
     PORT, 
